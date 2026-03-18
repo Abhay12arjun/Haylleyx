@@ -103,6 +103,7 @@ project-root
 │   ├── controllers
 │   ├── models
 │   ├── routes
+│   ├── middleware
 │   └── server.js
 │
 ├── frontend
@@ -111,5 +112,106 @@ project-root
 │   │   ├── pages
 │   │   ├── services
 │   │   └── App.jsx
+│   ├── index.html
+│   └── vite.config.js
 │
 └── README.md
+
+
+
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+[Clone Repository](https://github.com/your-username/dashboard-builder.git)
+cd dashboard-builder
+🔐 Environment Variables
+Backend (/backend/.env)
+
+Create a .env file inside the backend folder:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+CLIENT_URL=http://localhost:5173
+Frontend (/frontend/.env)
+VITE_API_URL=http://localhost:5000/api
+▶️ Running the Application
+🔹 Start Backend Server
+cd backend
+npm install
+npm run dev
+
+👉 Backend runs on: http://localhost:5000
+
+🔹 Start Frontend
+
+Open a new terminal:
+
+cd frontend
+npm install
+npm run dev
+
+👉 Frontend runs on: http://localhost:5173
+
+🔄 Available Scripts
+Backend
+npm run dev     # Start server with nodemon
+npm start       # Start production server
+Frontend
+npm run dev     # Start development server
+npm run build   # Build for production
+npm run preview # Preview production build
+🌐 API Endpoints (Sample)
+Auth
+
+POST /api/auth/register
+
+POST /api/auth/login
+
+Orders
+
+GET /api/orders
+
+POST /api/orders
+
+PUT /api/orders/:id
+
+DELETE /api/orders/:id
+
+Dashboard
+
+GET /api/dashboard
+
+🚀 Deployment
+Frontend
+
+Deploy on Vercel / Netlify
+
+Backend
+
+Deploy on Render / Railway
+
+Make sure to update environment variables in production.
+
+📸 Screenshots (Optional)
+
+Add screenshots of your dashboard here for better presentation.
+
+🤝 Contributing
+
+Contributions are welcome!
+
+fork → create branch → commit → push → pull request
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Developed by Abhay
+
+⭐ Support
+
+If you like this project:
+
+👉 Star the repository
+👉 Share it with othe
