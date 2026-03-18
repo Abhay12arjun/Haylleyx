@@ -121,7 +121,12 @@ project-root
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-[Clone Repository](https://github.com/your-username/dashboard-builder.git)
+
+---
+
+### 🔹 Simple Clickable Link Only
+```md
+[Haylleyx GitHub Repository](https://github.com/Abhay12arjun/Haylleyx.git)
 cd dashboard-builder
 🔐 Environment Variables
 Backend (/backend/.env)
