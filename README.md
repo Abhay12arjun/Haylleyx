@@ -22,7 +22,7 @@ This project is built using the **MERN Stack (MongoDB, Express, React, Node.js)*
 [▶ Watch Demo Video](https://youtu.be/Js2mrcxnMmw?si=SlUGNw0MGKRVz3AA)
 
 ---
-## 🎥 Demo Video
+## 🎥 Github Link
 
 👉 GitHub Link:  
 [Haylleyx GitHub Repository](https://github.com/Abhay12arjun/Haylleyx.git)
